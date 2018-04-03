@@ -73,13 +73,6 @@ public class Buy1DayTicket {
 
 	        driver.findElement(passwordLocator).sendKeys(password);
 	        driver.findElement(loginFormLocator).submit();
-	        try {
-	        	System.out.println("Sleeping");
-				Thread.sleep(3000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}  
 
 	
 	        String messageLogin = driver.findElement(messageLocator).getText();
