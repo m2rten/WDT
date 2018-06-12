@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test name="Canary Test">
+    <classes>
+    	<class name="canary.LoginSuccessfull"/>
+    </classes>
+  </test> 
+   <test name="Add Money">
+    <classes>
+      <class name="buyTickets.AddMoney"/>
+    </classes>
+  </test> <!-- Test -->
+     <test name="Buy tickets">
+    <classes>
+      <class name="buyTickets.Buy1DayTicket"/>
+    </classes>
+  </test>
+     <test name="Personalize card">
+    <classes>
+      <class name="personalize.PersonalizeWithOutIdCard"/>
+    </classes>
+  </test>
+      <test name="Change password">
+    <classes>
+      <class name="settings.ChangePassword"/>
+    </classes>
+  </test>
+      <test name="Create User">
+    <classes>
+      <class name="settings.CreateUser"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

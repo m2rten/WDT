@@ -24,7 +24,7 @@
             				<headless>true</headless>
          			 </systemPropertyVariables>
                         <suiteXmlFiles>                     
-                            <suiteXmlFile>tallinnTestSuite.xml</suiteXmlFile>
+                            <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
